@@ -13,6 +13,7 @@
         text-align: justify;
     }
     img {
+        max-width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -32,12 +33,10 @@
         float: left;
     }
     .avatar {
-        margin: auto;
         display: block;
-        text-align: center; 
-        border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 50%;
         width: 256px;
         height: 256px;
     }
@@ -47,6 +46,30 @@
     }    
     .myimg {
         text-align: center;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    IMG.displayed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+    }
+    .testimg {
+        display: block;
+        border-radius: 50%;
+        max-width: 100%;
+        width: 256px;
+        height: 256px;
+        margin-left: 45%;
+        margin-right: 50%;
     }
 </style>
 </head>
@@ -129,11 +152,13 @@ rules and restrictions. To bring them to live one needs a interpreter or compile
 
 <a href="https://github.com/zentrocdot/sd-webui-predefined_aspect_ratios">sd-webui-predefined_aspect_ratios</a><br><br>
 
-<div class="myimg"> 
-   <img class="avatar" src="512x512pixel.jpg" alt="avatar zentrocdot">
-</div>    
+<!-- <div class="myimg"> -->
+<img class="testimg" src="512x512pixel.jpg" alt="avatar zentrocdot">
 
-<br><br>    
+<br><br> 
+<!-- </div> -->       
+
+<br/><br>    
     
 <p class="footer">Content &#169; 2022-2024, transdocdot<br>
 Hosted on <a href="http://pages.github.com">GitHub Pages</a>.</p>
