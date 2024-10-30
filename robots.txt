@@ -1,0 +1,11 @@
+# User defined robots.txt
+
+# Apply rules to all user agents.
+User-agent: *
+
+# Disallow directory.
+Disallow: /images/
+
+# Disallow files.
+Disallow: /.gitignore
+Disallow: /README.md
