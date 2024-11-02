@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="./images/favicon-32x32.png">
+<meta charset="utf-8">
+<title>zentrocdot's world of computing</title>
+<style>
+    /* Changing behaviour of tag body */
+    body {
+        background-color: MintCream;
+        font-family: Helvetica;
+    }
+    /* Changing behaviour of tag pre */
+    pre {
+        font-size: 105%;
+    }
+    /* Changing behaviour of tag p */
+    p {
+        text-align: justify;
+    }
+    /* Changing behaviour of tag img */
+    img {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 0px 0px 0px;
+        float: left;
+    }  
+    .header {
+        font-size: 48px;        
+    }
+    .logo {
+        vertical-align: middle;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 48px;
+        height: 48px;
+        /* padding: top right bottom left */
+        padding: 5px 5px 5px 5px;
+        float: left;
+    }
+    .avatar {
+        display: block;
+        margin-left: 40%;
+        margin-right: 40%;
+        border-radius: 50%;
+        width: 20%;
+        /* padding: top right bottom left */
+        padding: 10px 0px 20px 0px;
+    }
+    .footer {
+        text-align: center; 
+        font-size: 0.7em;    
+    }    
+    .w3c_img {
+        display: block;
+        margin-left: 47%;
+        margin-right: 47%;
+        width: 6%;
+        /* padding: top right bottom left */
+        padding: 10px 0px 20px 0px;
+    }
+    .bmac_img {
+        display: block;
+        margin-left: 44%;
+        margin-right: 44%;
+        width: 12%;
+        /* padding: top right bottom left */
+        padding: 10px 0px 20px 0px;
+    }
+    .support {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .center {
+        margin: auto;
+        width: 40%;        
+        padding: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 25px;
+    }
+    .center_inline {
+        border: 2px solid green;
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .site_navigation {
+        text-decoration: none;
+        line-height: 150%
+        margin-bottom: 20px 20px;
+        padding: 5px 5px 5px 5px;
+    }    
+    .site_navigation_div {
+        line-height: 150%
+    } 
+</style>
+</head>
+<body>
+<!-- The actual website begins here -->    
+<img src="./images/banner.jpg" alt="Banner">    
+<h1 class="header"><img class="logo" src="./images/logo.png" alt="Logo">Zentrocdot's Private World of Information Technology</h1>
+
+<!-- Set anchors for site navigation -->
+<div class="site_navigation_div">
+    <a class="site_navigation" id="top-of-page" href="#bottom-of-page">⬇️ Jump to bottom of page</a>
+</div>  
+    
+<h1>Short Biography</h1>
+
+<h2>Introductory Words</h2>
+
+<p>This webspace is a simple introduction to who I am and what I do. In general I like photography and graphic design. I have just over 
+40 years of experience in both fields. Everything about images and image manipulation is of interest for me. Currently I am also interested
+in Artificial Intelligence, Generative Artificial Intelligence image generation, Crypto Coin and NFT technology.</p> 
+    
+<p>Over a decade I am no longer working on personal computers with the operating system Windows. At that time when I used Windows I had in
+parallel to work on Unix as well as on Sinix and worked private on Linux. I am now working for a long time exclusively under Linux, use only
+open source software and do my own programming.</p> 
+    
+<p>In mathematics, physics as well as computer science and technology I am also interested. One topic I deal with at regular
+intervals is the number Pi and how to calculate it. I am further on interested in theology, philosophy and history.</p>
+
+<p>At the moment, Github in particular is a vendor's tray for me with various repositories on different topics. Through this website, I am trying
+to bring some order to the things that are important to me and that might also be of interest to others.</p>
+    
+<h2>Corporate Identity</h2>
+    
+<p>Whenever you see my banner, my logo or my avatar, than the creator and owner should be me of the related web space. As my graphics are often 
+stolen - they must be really good enough for some people - one needs to take a closer look to see if it is me or a dummy or fake site. This can
+be easily checked by cross links, if my pseudonym or alias, my banner, my logo as well as my avatar is the same and so on.</p>
+
+<h2>Online Activities</h2>    
+    
+<h3>Presence in Social Media</h3>
+    
+<p>You can find me on <a href="https://x.com/zentrocdot">X</a> (formally Twitter) and recently also on <a href="https://bsky.app/profile/zentrocdot.bsky.social">Bluesky</a>. 
+Both are the showroom for my activities in graphic design and programming. You can also find me on the communication platform <a href="https://discord.gg/T4NsWzrk">Discord</a>.
+I have also a web presence at <a href="https://buymeacoffee.com/zentrocdot">Buymeacoffee</a>. The latter one is not maintained by me so often
+these days.</p>
+
+<h3>Presence on Developer Platforms</h3>
+    
+<p> I am active from time to time here at <a href="https://github.com/zentrocdot">GitHub</a>. And last but not least I am every now and
+again at Launchpad and CPAN. Due to a lack of time, I am currently spending less time on Launchpad and CPAN.</p>
+
+<h3>Generative AI Related Comunity</h3>
+    
+<p>After some initial hesitation, I took a closer look at CIVITAI [1] and am now very impressed with this platform. Accordingly one can find me
+also now on <a href="https://civitai.com/user/zentrocdot">CIVITAI</a>. On CIVITA one can find Embeddings, Hypernetworks, LoRAs, DreamBooth models 
+as well as merged base models of myself.</p>    
+    
+<h3>Presence on NFT Marketplaces</h3>
+
+<p>Today, NFT Marketplaces are far more than just a platform on which NFTs are offered. If one uses the possibilities in a good way,
+these marketplaces are galleries for the own ideas and images.</p>
+    
+<p>As I wrote I am interested in the NFT technology. In this area I am active at three places. One can find me on
+<a href="https://opensea.io/zentrocdot">Opensea</a>, 
+<a href="https://rarible.com/zentrocdot">Rarible</a> and 
+<a href="https://magiceden.io/u/zentrocdot?chains=%5B%22polygon%22%5D&wallets=%5B%220x8cBDE1015019f21bac2c68866A65f23eD2daC6A4%22%5D&activeTab=%22allItems%22">Magic Eden</a>. 
+Most of the NFTs there are for personal use. Some are to give them away in good hands.
+</p>    
+   
+<h1>Programming Languages</h1>
+
+<h2>Programming Languages I am Familiar With</h2>
+
+<p>Some of the programming languages I am familiar with:</p>
+  
+<ul>
+  <li>Machine Language</li>
+  <li>Assembler</li>
+  <li>C/C++</li>
+  <li>Basic</li>
+  <li>Pascal/Turbo Pascal</li>
+  <li>Fortran</li>
+  <li>Batch</li>  
+  <li>Visual Basic</li>
+  <li>Shell/Bash</li>
+  <li>Python</li>
+  <li>Perl</li> 
+  <li>Ruby</li>
+  <li>Markdown</li>  
+  <li>HTML/XML</li>
+  <li>Java</li>
+  <li>JavaScript</li>
+  <li>PHP</li>
+  <li>sed</li>
+  <li>awk</li>  
+  <li>bc</li>
+  <li>roff</li>
+  <li>Tex/LaTex</li>
+  <li>Tcl/Tk</li>
+</ul>
+
+<p>The above list is certainly not complete. I always use the programming language that gets me to my goal the quickest. See also [2] for an
+incredible long list of programming languages. If necessary, I also learn a new programming language.</p>
+
+<h2>Comments on the Mentioned Programming Languages</h2>    
+
+<p>In computer programming, machine code is the computer code consisting of machine language instructions, which are used to control
+and interact with the central processing unit (CPU) of a computer. For conventional computers on binary base, machine code is the binary
+representation of a computer program which can be read and interpreted by the computer respectively by the CPU. Such a program in machine
+code consists of a sequence of machine instructions sometime interspersed with data. Machine code commands can be processed
+directly by a CPU as mentioned. Each command is given in binary form with zeros and ones.</p>
+
+<p>The machine code is by definition not natural for human beings. Here comes the assembler into play. An assembler works with the so-called
+mnemonics which makes progamming on processor level easier and more natural for a human being. Commands are no longer given in a combination
+of zeros and ones. Assembler uses e.g commands like shift arithmetic right (SAR) and shift logical right (SHR). The list of available assembler
+commands varies from processor type to procesor type. One good example is a so-called RISC processor, whereas RISC is the abbreviation for 
+Reduced Instruction Set Computer.<p>
+
+<p>The next level on programming languages are C/C++ which are near to the assembler programming. Other programming languages e.g. are again
+written in C/C++.</p>
+
+<p>What Batch programming was under Windows, Shell/Bash programming is under Linux. At least they are comparable in terms of their approach,
+before I am criticised for the above statement.</p>
+
+<p>sed, awk as well as bc are commonly known as Bash commands. What most people do not realise or know is that sed, awk and bc are fully-fledged
+programming languages.</p>
+
+<p>My favourite programming languages are Bash, Python and Perl. First I take a look, if a problem can be solved using Bash, than I take a look,
+if a ploblem can be solved using Python. Last but not least I am deciding if I have to use Perl or another Programming language.</p>
+
+<h2>What is a Programming Language</h2>  
+
+<p>The programming language itself is nothing else than semantic and syntactic rules and restrictions. To bring them to live one needs a interpreter or 
+compiler or maybe a mixture from both.</p>
+
+<h2>What is an Interpreter and What is a Compiler</h2>
+
+<p>While running a script or programme the interpreter is interpreting the code and reads the code line by line. A Compiler creates binary code while compiling 
+from the source code. The result is an executable programme.</p>
+
+<h1>Photography and Grafic Design</h1>
+
+<p>Linux is a good platform when it comes to tools for photography and graphic design. Linux has one weakness compared to Windows. 
+Printed Good print quality is easier to realise with Windows if the appropriate drivers are available.</p>   
+
+<p>Subsequently listed Tools are in use by me:</p>
+
+<ul>
+    <li>RawTherapee</li>
+    <li>Gimp</li>
+    <li>G'MIC</li>
+    <li>Inkscape</li>
+    <li>ImageMagick</li>
+</ul>
+
+<p>As I learned Stable Diffusion can be used for much more than simple AI image generation. With Stable Diffusion images can be easily upscaled.
+A magic eraser functionality can be realised by Stable Diffusion too.</p>     
+
+<h1>Stable Diffusion Model Development</h1>
+
+<p>At the moment I am able to create Embeddings, Hypernetworks, LoRAs, DreamBooth and merged base models.</p>    
+
+<h1>NFT Technology</h1>
+    
+<h2>Thoughts about NFT Technology</h2>  
+
+<p>It looks to me as if NFTs are still only seen as an object of speculation. I don't think this does the technology justice. With NFTs, you can
+have your own pictures with you anytime and anywhere. Access is easy via smartphone, tablet or personal computer to each time and at each location.</p>    
+
+<h2>Favourite NFT image Collections</h2>  
+
+<p>Art should be shown. In order to realise this for myself personally, I have been creating NFTs for a long time. That way I can carry the pictures
+around in my wallet.</p>    
+
+<ul>
+  <li><a href="https://opensea.io/collection/surreal-lily-collection-no-1">Surreal Lily Collection</a></li>
+  <li><a href="https://opensea.io/collection/cats-with-hats-collection-1">Cats With Hats Collection</a></li>
+  <li><a href="https://opensea.io/collection/devil-woman-collection">Devil Woman Collection</a></li>
+  <li><a href="https://opensea.io/collection/fantastic-mushroom-collection">Fantastic Mushroom Collection</a></li>
+  <li><a href="https://opensea.io/collection/graphic-artwork-collection">Graphic Artwork Collection</a></li>
+  <li><a href="https://opensea.io/collection/avatar-image-collection">Avatar Image Collection</a></li>
+  <li><a href="https://opensea.io/collection/mechanical-cat-collection-1">Mechanical Cat Collection</a></li>
+  <li><a href="https://opensea.io/collection/fashion-light-collection">Fashion Light Collection</a></li>
+</ul>
+
+<h1>Extensions for the Web UI AUTOMATIC1111</h1> 
+
+<p>I have always lacked options for working more effectively with AI image generation. Since AUTOMATIC1111 offers the
+option of integrating self-programmed extensions, I familiarised myself with the programming of these extensions.</p>
+
+<p>The Extensions I have programmed so far can be found her:</p>
+
+<ul style="list-style-type: '➡️ '"> 
+  <li><a href="./html/extensions.html">Extensions for the web UI AUTOMATIC1111</a></li>  
+</ul>    
+
+<h1>WapScan PPA</h1>
+
+<p>Since 2017, I have been using my own wireless access point scanner without making any necessary changes. The tool is simple and easy to use. Programmed is the tool using Bash.</p>    
+
+<p>Installation can be done by using a PPA applying following steps:</p>    
+    
+<pre>
+    sudo add-apt-repository ppa:zentrocdot/wapscan-cli
+    sudo apt update
+    sudo apt-get install wapscan
+</pre>  
+    
+<p>Informations and resources can be found here:</p> 
+
+<ul style="list-style-type: '➡️ '">    
+    <li><a href=" https://github.com/zentrocdot/wapscan_sd">https://github.com/zentrocdot/wapscan_sd</a></li>
+</ul>
+
+<p>wapscan is a tool for the terminal window. The tool can used with more than one wlan interfaces. It is as simple as possible. The goal is simply to show the
+wireless access point in the surounding with some impportant informations about them.<p>
+
+<p>When I have more time I have to take alook at the tool and have to check if an update or upgrade is necessary.<p>
+
+<h1>Archimedes and Pi</h1>
+
+<p>I'm particularly proud of the fact that I was able to work up and verify Archimedes' basics for calculating the circle number
+Pi in the form of a SageMath notebook, which can be found here on GitHub. Archimedes' approach is based on ratios of quantities
+and it is complicated to translate these ratios into mathematical equations. A particular problem here is that he chose different
+approaches for the inscribed circle and the circumscribed circle.<p>
+
+<h1>Further interesting Resources</h1>
+
+<p>I am working with the mathematical tool SageMath. To make a straight forward installation for me easier I wrote a installation guide.</p>
+
+<ul>
+   <li><a href="https://github.com/zentrocdot/SageMath">https://github.com/zentrocdot/SageMath</a></li>
+</ul>
+
+<p>To have the newest version of LibreOffice I figured out how to compile and install it from source with language support and everything else
+what is neede to have a state of the art system.</p>    
+    
+<ul>
+  <li><a href="https://github.com/zentrocdot/LibreOffice">https://github.com/zentrocdot/LibreOffice</a></li>
+</ul>
+
+<h1>How To Get In Touch With Me</h1>
+
+<p>Best way to get in touch with me is using <a href="https://discord.gg/T4NsWzrk">Discord</a>. Following the invitation link and visit
+me at Discord for communication with me and get also more informations. On X as well as on Bluesky I am not answering or responding anymore.
+Most of the enquiries there are fraud attempts or something similar.</p>
+
+<h1>References</h1>
+
+[1] <a href="https://civitai.com/">https://civitai.com/</a><br><br> 
+[2] <a href="https://en.wikipedia.org/wiki/List_of_programming_languages">https://en.wikipedia.org/wiki/List_of_programming_languages</a><br><br>
+
+<!-- Set anchors for site navigation -->
+<div class="site_navigation_div">
+    <a id="bottom-of-page" href="#top-of-page" style="text-decoration:none">⬆️ Jump to top of page</a>
+</div>
+
+<hr style="width:100%;height:3px;border-width:0;color:gray;background-color:gray">
+
+<p class="support">There are various ways to support my work. One option is to purchase some of my extraordinary NFTs.</p>
+
+<hr style="width:75%;height:1px;border-width:0;color:gray;background-color:gray">
+
+<p class="support">I loved the time when you could get also a hamburger for one Euro!</p>   
+
+<a href="https://www.buymeacoffee.com/zentrocdot">
+<img class="bmac_img" src="./images/greeen-button.png" alt="Buy Me A Coffee">
+</a> 
+    
+<hr style="width:100%;height:3px;border-width:0;color:gray;background-color:gray">
+
+<p class="support">If you like what I present here, or if it helps you, or if it is useful for you, you are welcome to donate a small contribution by use one of my favourite crypto coins.</p>
+<p class="support">Many thanks in advance!</p>
+
+<div class="center">
+<pre class="center_inline">
+TQHgMpVzWkf3Lkd68QS7tcn7S5Y9ayg6Fu            (TRON)
+DQYkNGW8VfCuUbM9Womnp6KiFdtMa4NUkD            (DOGE)
+bc1quy5nr5x4xgrtmnknuayysapg8t8tl4jqsgcu2t    (BITCOIN)
+0xD238a487F5147AC23c25908FC86129889E38BfB9    (Ethereum)
+</pre>
+</div>
+
+<hr style="width:50%;height:3px;border-width:0;color:gray;background-color:gray">
+
+<p class="footer">Peace on earth for everyone! Have a nice day!</p>
+
+<img class="avatar" src="./images/512x512pixel.jpg" alt="avatar zentrocdot">
+
+<br><br> 
+    
+<p class="footer">Content &#169; 2022-2024, zentrocdot<br>Hosted on <a href="http://pages.github.com">GitHub Pages</a></p>
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fzentrocdot.github.io%2F">
+<img class="w3c_img" src="./images/valid-html401.png" alt="w3c validator">
+</a> 
+    
+</body>
+</html>
