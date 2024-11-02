@@ -97,7 +97,7 @@ li {
     padding: 10px 10px 10px 10px;
 }
 .site_navigation {
-    border: none;
+    border: 0;
     outline : none;
     text-decoration: none;
     margin-bottom: 20px 20px;
