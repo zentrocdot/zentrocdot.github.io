@@ -27,21 +27,21 @@ li {
 }
 .header {
     font-size: 48px; 
-    margin-top: 20px;
-    padding: 20px 5px 0px 5px;
+    margin-top: 0px;
+    padding: 5px 5px 5px 5px;
 }
 .logo {
-    border-radius: 5%;
-    vertical-align: bottom;
+    border-radius: 10%;
+    vertical-align: middle;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
     width: 48px;
     height: 48px;
     /* padding: top right bottom left */
-    padding: 10px 5px 0px 5px;
+    padding: 5px 5px 5px 5px;
     float: left;
 }
 .avatar {
