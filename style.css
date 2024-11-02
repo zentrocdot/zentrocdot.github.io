@@ -33,6 +33,7 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
     width: 48px;
     height: 48px;
     /* padding: top right bottom left */
