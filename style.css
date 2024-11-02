@@ -75,7 +75,7 @@ li {
 }
 .center_block {
     display: inline-block;
-    border: 2px solid Aquamarine; 
+    border: 2px solid lightgreen; 
     margin: auto;
     width: 100%;
     padding: 0px;
