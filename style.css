@@ -35,6 +35,18 @@ li {
     margin-top: 0px;
     padding: 0px 0px 0px 0px;
 }
+.banner {
+    border-radius: 5%;
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* padding: top right bottom left */
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
 .logo {
     border-radius: 5%;
     vertical-align: middle;
