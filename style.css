@@ -11,6 +11,7 @@ body {
 table {
     margin-top: 5px;
     margin-bottom: 0px;
+    text-align: left;
 }
 /* Changing the behaviour of tag pre */
 pre {
@@ -38,6 +39,7 @@ li {
     font-size: 1.0vw;
     /* font-size: 42px; */  
     margin-top: 0px;
+    margin-left: 5px;
     /* padding: top right bottom left */
     padding: 5px 5px 0px 0px;
 }
