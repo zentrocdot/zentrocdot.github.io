@@ -26,7 +26,8 @@ li {
     margin: 5px 5px;
 }
 .header {
-    font-size: 48px;        
+    font-size: 48px; 
+    margin-left: 0px;
 }
 .logo {
     vertical-align: middle;
