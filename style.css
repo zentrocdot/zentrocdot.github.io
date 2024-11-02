@@ -106,3 +106,6 @@ li {
 .site_navigation_div {
     line-height: 150%
 }  
+a:focus {
+        outline: none;
+      }
