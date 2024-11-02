@@ -74,6 +74,7 @@ li {
     padding-bottom: 0px;
 }
 .center_block {
+    display: inline-block;
     border: 2px solid green; 
     margin: auto;
     width: 100%;
