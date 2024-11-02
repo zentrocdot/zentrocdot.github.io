@@ -32,10 +32,10 @@ li {
 .header {
     font-size: 48px; 
     margin-top: 0px;
-    padding: 5px 5px 5px 5px;
+    padding: 0px 0px 0px 0px;
 }
 .logo {
-    border-radius: 10%;
+    border-radius: 50%;
     vertical-align: middle;
     display: block;
     margin-left: auto;
@@ -45,7 +45,7 @@ li {
     width: 48px;
     height: 48px;
     /* padding: top right bottom left */
-    padding: 5px 5px 5px 5px;
+    padding: 0px 0px 0px 0px;
     float: left;
 }
 .avatar {
