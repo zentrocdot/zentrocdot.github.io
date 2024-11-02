@@ -75,7 +75,7 @@ li {
 }
 .center_block {
     display: inline-block;
-    border: 3px solid mediumseagreen; 
+    border: 3px solid #79d6b5; 
     margin: auto;
     width: 100%;
     padding: 0px;
