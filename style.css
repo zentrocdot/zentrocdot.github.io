@@ -4,6 +4,10 @@ body {
     background-color: Snow;
     font-family: Helvetica;
 }
+table {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 /* Changing the behaviour of tag pre */
 pre {
     font-size: 105%;
