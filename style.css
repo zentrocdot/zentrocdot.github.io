@@ -44,24 +44,25 @@ td.headline {
 }
 /* Table tag section */
 table {
+    font-family: Helvetica;
+    font-weight: normal;
     width: 50%;
-    border-collapse: collapse;
-    padding: 2px 2px 2px 2px;
+    border-collapse: collapse;    
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: left;
-    font-family: Helvetica;
-    font-weight: normal;
     border: 1px dotted LightGrey;
+    /* padding: top right bottom left */
+    padding: 2px 2px 2px 2px;
 }
 table tr:nth-child(even) {
     background-color: #D6EEEE;
     border: 1px dotted LightGrey;
 }
 table th, td {
+    border: 1px dotted LightGrey;
     /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
-    border: 1px dotted LightGrey;
 }
 /* Changing the behaviour of tag pre */
 pre {
