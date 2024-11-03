@@ -39,17 +39,17 @@ table {
     text-align: left;
     font-family: Helvetica;
     font-weight: normal;
-    border: 1px dashed gray;
+    border: 1px dotted gray;
 }
 table tr:nth-child(even) {
     background-color: #D6EEEE;
-    border: 1px dashed gray;
+    border: 1px dotted gray;
 }
 table th, td {
     /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
     border-spacing: 60px;
-    border: 1px dashed gray;
+    border: 1px dotted gray;
 }
 /* Changing the behaviour of tag pre */
 pre {
