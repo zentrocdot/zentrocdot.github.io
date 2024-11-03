@@ -23,7 +23,7 @@ table tr:nth-child(even) {
 }
 
 table th, td {
-  padding: 50px;
+  padding: 5px;
   border-spacing: 50px;
 }
 
