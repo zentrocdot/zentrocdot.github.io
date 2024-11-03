@@ -31,6 +31,7 @@ table.headline tr, th, td {
 }
 /* Table tag section */
 table {
+    border-collapse: collapse;
     padding: 2px 2px 2px 2px;
     margin-top: 5px;
     margin-bottom: 0px;
