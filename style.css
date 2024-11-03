@@ -17,18 +17,20 @@ table.headline {
     border-spacing: 5px;
     border: none;
 }
-tr.headline {
+tr.headline, td.headline {
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
     border-spacing: 5px;
     border: none;
 }
+/*
 td.headline {
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
     border-spacing: 5px;
     border: none;
 }
+*/
 .header {
     font-family: "Trebuchet MS";
     /* font-family: "Courier New"; */
