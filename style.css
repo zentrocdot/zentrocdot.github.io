@@ -62,7 +62,7 @@ table tr:hover {background-color: LightSalmon;}
 table th, td {
     /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
-    /* border-spacing: 60px; */
+    width: 20%;
     border: 1px dotted LightGrey;
 }
 /* Changing the behaviour of tag pre */
