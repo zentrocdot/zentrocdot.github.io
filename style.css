@@ -10,6 +10,10 @@ body {
     font-family: Helvetica;
 }
 /* Table tag section */
+table.header {
+    font-family: Helvetica;
+    font-weight: bold;
+}
 table {
     margin-top: 5px;
     margin-bottom: 0px;
