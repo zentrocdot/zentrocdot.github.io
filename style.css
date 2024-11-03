@@ -14,19 +14,19 @@ table.headline {
     width: 100%;
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
-    /* border-spacing: 5px; */
+    border-spacing: 0px;
     border: none;
 }
 tr.headline {
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
-    /* border-spacing: 5px; */
+    border-spacing: 0px;
     border: none;
 }
 td.headline {
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
-    /* border-spacing: 5px; */
+    border-spacing: 0px;
     border: none;
 }
 .header {
