@@ -15,7 +15,7 @@ table {
     margin-bottom: 0px;
     text-align: left;
     font-family: Helvetica;
-    font-weight: lighter;
+    font-weight: normal;
 }
 table tr:nth-child(even) {
     background-color: #D6EEEE;
