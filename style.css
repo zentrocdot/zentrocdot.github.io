@@ -34,6 +34,7 @@ table th, td {
     /* padding: top right bottom left */
     padding: 5px 50px 5px 5px;
     border-spacing: 20px;
+    border: 1px dashed gray;
 }
 /* Changing the behaviour of tag pre */
 pre {
