@@ -44,7 +44,7 @@ td.headline {
 }
 /* Table tag section */
 table {
-    width: 75%;
+    width: 50%;
     border-collapse: collapse;
     padding: 2px 2px 2px 2px;
     margin-top: 5px;
