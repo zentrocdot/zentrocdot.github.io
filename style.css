@@ -15,6 +15,7 @@ body {
 } */
 table.headline {
     /* padding: top right bottom left */
+    width: 100%;
     padding: 2px 2px 2px 2px;
     border-spacing: 5px;
     border: none;
