@@ -21,6 +21,7 @@ table.headline tr, th, td {
     border-spacing: 5px;
     border: none;
 }
+/* Table tag section */
 table {
     padding: 2px 2px 2px 2px;
     margin-top: 5px;
