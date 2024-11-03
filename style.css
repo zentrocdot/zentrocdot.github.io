@@ -16,6 +16,7 @@ table {
     text-align: left;
     font-family: Helvetica;
     font-weight: lighter;
+    border-spacing: 50px 0;
 }
 
 table tr:nth-child(even) {
