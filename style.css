@@ -13,13 +13,13 @@ body {
 table.headline {
     font-family: Helvetica;
     font-weight: bold;
-    border: 0px solid black;
+    border: none;
 }
 table.headline th, td {
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
     border-spacing: 5px;
-    border: 0px solid black;
+    border: none;
 }
 table {
     margin-top: 5px;
