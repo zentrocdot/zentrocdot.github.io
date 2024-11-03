@@ -11,9 +11,6 @@ body {
     font-family: Helvetica;
 }
 table {
-    tr:nth-child(even) {
-        background-color: #D6EEEE;
-    }
     margin-top: 5px;
     margin-bottom: 0px;
     text-align: left;
