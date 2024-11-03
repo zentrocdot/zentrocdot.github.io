@@ -10,6 +10,7 @@ body {
     background-color: Snow;
     font-family: Helvetica;
 }
+/* Table tag section */
 table {
     margin-top: 5px;
     margin-bottom: 0px;
@@ -17,11 +18,9 @@ table {
     font-family: Helvetica;
     font-weight: lighter;
 }
-
 table tr:nth-child(even) {
     background-color: #D6EEEE;
 }
-
 table th, td {
     /* padding: top right bottom left */
     padding: 2px 50px 2px 2px;
