@@ -47,7 +47,7 @@ table tr:nth-child(even) {
 }
 table th, td {
     /* padding: top right bottom left */
-    padding: 5px 60px 5px 5px;
+    padding: 5px 5px 5px 5px;
     border-spacing: 60px;
     border: 1px dashed gray;
 }
