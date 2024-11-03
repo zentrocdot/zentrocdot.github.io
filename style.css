@@ -21,6 +21,10 @@ table {
     font-weight: lighter;
 }
 
+tr:nth-child(even) {
+        background-color: #D6EEEE;
+}
+
 /* Changing the behaviour of tag pre */
 pre {
     font-size: 105%;
