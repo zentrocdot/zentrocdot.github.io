@@ -11,8 +11,6 @@ body {
 }
 /* Table tag section */
 table.headline0 {
-    font-family: Courier New;
-    font-weight: bold;
     border: none;
 }
 table.headline1 tr, th, td {
@@ -23,6 +21,7 @@ table.headline1 tr, th, td {
 }
 .header {
     font-family: "Trebuchet MS";
+    font-weight: bold;
     /* font-size: 5.0vw; */
     font-size: 42px;  
     margin-top: 0px;
