@@ -23,7 +23,7 @@ table tr:nth-child(even) {
     background-color: #D6EEEE;
 }
 
-table td {
+table th, td {
   padding: 50px 0;
 }
 
