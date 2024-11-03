@@ -13,7 +13,7 @@ body {
 /* table.headline0 {
      border: none;
 } */
-table.headline tr, th, td {
+.headline tr, th, td {
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
     border-spacing: 5px;
