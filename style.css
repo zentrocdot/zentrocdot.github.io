@@ -10,10 +10,10 @@ body {
     font-family: Helvetica;
 }
 /* Table tag section */
-table.headline0 {
-    border: none;
-}
-table.headline1 tr, th, td {
+/* table.headline0 {
+     border: none;
+} */
+table.headline tr, th, td {
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
     border-spacing: 5px;
