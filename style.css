@@ -62,7 +62,6 @@ table tr:nth-child(even) {
 table th, td {
     /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
-    width: 20%;
     border: 1px dotted LightGrey;
 }
 /* Changing the behaviour of tag pre */
