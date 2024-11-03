@@ -30,9 +30,9 @@ td.headline {
     border: none;
 }
 .header {
-    font-family: "Trebuchet MS";
     /* font-family: "Courier New"; */
     /* font-family: "Georgia"; */
+    font-family: "Trebuchet MS";
     font-weight: bold;
     /* font-size: 5.0vw; */
     font-size: 42px;  
@@ -60,7 +60,7 @@ table tr:nth-child(even) {
 }
 table th, td {
     /* padding: top right bottom left */
-    padding: 5px 35px 5px 5px;
+    padding: 5px 5px 5px 5px;
     /* border-spacing: 60px; */
     border: 1px dotted LightGrey;
 }
