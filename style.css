@@ -9,10 +9,7 @@ body {
     background-color: Snow;
     font-family: Helvetica;
 }
-/* Table tag section */
-/* table.headline0 {
-     border: none;
-} */
+/* Header section */
 table.headline {
     /* padding: top right bottom left */
     width: 100%;
