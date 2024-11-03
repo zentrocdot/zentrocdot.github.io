@@ -25,16 +25,17 @@ table {
     text-align: left;
     font-family: Helvetica;
     font-weight: normal;
-    border: 1px dashed gray;
+    border: 1px solid black;
 }
 table tr:nth-child(even) {
     background-color: #D6EEEE;
+    border: 1px solid black;
 }
 table th, td {
     /* padding: top right bottom left */
     padding: 5px 150px 5px 5px;
     border-spacing: 20px;
-    border: 1px dashed gray;
+    border: 1px solid black;
 }
 /* Changing the behaviour of tag pre */
 pre {
