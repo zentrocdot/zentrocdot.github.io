@@ -14,6 +14,11 @@ table.header {
     font-family: Helvetica;
     font-weight: bold;
 }
+table.header th, td {
+    /* padding: top right bottom left */
+    padding: 2px 2px 2px 2px;
+    border-spacing: 5px;
+}
 table {
     margin-top: 5px;
     margin-bottom: 0px;
