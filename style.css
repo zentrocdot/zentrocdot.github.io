@@ -12,16 +12,16 @@ body {
 /* Header section */
 table.headline {   
     width: 100%;
-    /* padding: top right bottom left */
-    padding: 2px 2px 2px 2px;
     border-spacing: 0px;
     border: none;
+    /* padding: top right bottom left */
+    padding: 2px 2px 2px 2px;
 }
 tr.headline {
+    border: none;
+    border-spacing: 0px;   
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
-    border-spacing: 0px;
-    border: none;
 }
 td.headline {
     /* padding: top right bottom left */
