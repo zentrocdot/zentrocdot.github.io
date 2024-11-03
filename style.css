@@ -58,6 +58,7 @@ table tr:nth-child(even) {
     background-color: #D6EEEE;
     border: 1px dotted LightGrey;
 }
+tr:hover {background-color: orange;}
 table th, td {
     /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
