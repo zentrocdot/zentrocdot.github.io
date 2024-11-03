@@ -78,8 +78,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    float: left;  
+    /* padding: top right bottom left */
     padding: 0px 0px 0px 0px;
-    float: left;
 }  
 li {
     /* margin: top left */
@@ -93,9 +94,9 @@ li {
     margin-right: auto;
     margin-bottom: 5px;
     margin-top: 0px;
+    float: left;
     /* padding: top right bottom left */
     padding: 0px 0px 0px 0px;
-    float: left;
 }
 .logo {
     border-radius: 15%;
@@ -107,9 +108,9 @@ li {
     margin-top: 0px;
     width: 48px;
     height: 48px;
+    float: left;
     /* padding: top right bottom left */
     padding: 0px 0px 0px 0px;
-    float: left;
 }
 .avatar {
     display: block;
@@ -166,6 +167,7 @@ li {
     margin-top: 10px;
     margin-bottom: 20px;
     margin: 5px 10px;
+    /* padding: top right bottom left */
     padding: 10px 10px 10px 10px;
 }
 .site_navigation {
@@ -173,6 +175,7 @@ li {
     border: 0;
     text-decoration: none;
     margin-bottom: 20px 20px;
+    /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
 }    
 .site_navigation_div {
