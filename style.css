@@ -31,13 +31,13 @@ table {
 }
 table tr:nth-child(even) {
     background-color: #D6EEEE;
-    border: 0px dashed gray;
+    border: 1px dashed gray;
 }
 table th, td {
     /* padding: top right bottom left */
     padding: 5px 150px 5px 5px;
     border-spacing: 60px;
-    border: 0px dashed gray;
+    border: 1px dashed gray;
 }
 /* Changing the behaviour of tag pre */
 pre {
