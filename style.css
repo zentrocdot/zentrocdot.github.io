@@ -35,6 +35,7 @@ hr.headline {
     margin-left: 10px;
     /* padding: top right bottom left */
     padding: 5px 5px 0px 10px;
+    border: none;
 }
 /* Table tag section */
 table {
