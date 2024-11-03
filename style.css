@@ -11,12 +11,16 @@ body {
     font-family: Helvetica;
 }
 table {
+    tr:nth-child(even) {
+        background-color: #D6EEEE;
+    }
     margin-top: 5px;
     margin-bottom: 0px;
     text-align: left;
     font-family: Helvetica;
     font-weight: lighter;
 }
+
 /* Changing the behaviour of tag pre */
 pre {
     font-size: 105%;
