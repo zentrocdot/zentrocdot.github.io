@@ -47,8 +47,8 @@ table tr:nth-child(even) {
 }
 table th, td {
     /* padding: top right bottom left */
-    padding: 5px 5px 5px 5px;
-    border-spacing: 60px;
+    padding: 5px 25px 5px 5px;
+    /* border-spacing: 60px; */
     border: 1px dotted gray;
 }
 /* Changing the behaviour of tag pre */
