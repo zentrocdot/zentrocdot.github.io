@@ -12,8 +12,8 @@ body {
 /* Header section */
 table.headline {   
     width: 100%;
-    border-spacing: 0px;
     border: none;
+    border-spacing: 0px;
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
 }
@@ -24,10 +24,10 @@ tr.headline {
     padding: 2px 2px 2px 2px;
 }
 td.headline {
+    border: none;
+    border-spacing: 0px;
     /* padding: top right bottom left */
     padding: 2px 2px 2px 2px;
-    border-spacing: 0px;
-    border: none;
 }
 .header {
     /* font-family: "Courier New"; */
@@ -38,9 +38,9 @@ td.headline {
     font-size: 42px;  
     margin-top: 0px;
     margin-left: 10px;
-    /* padding: top right bottom left */
-    padding: 5px 5px 0px 10px;
     border: none;
+    /* padding: top right bottom left */
+    padding: 5px 5px 5px 5px;
 }
 /* Table tag section */
 table {
