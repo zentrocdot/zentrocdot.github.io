@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="../images/favicon-32x32.png">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen">
+<meta charset="utf-8">
+<!-- Trick to open external links in a new tab -->
+<base target="_blank">
+<title>zentrocdot's world of information technology</title>
+</head>
+<body>
+<!-- The actual website begins here -->    
+<img class="banner" src="../images/banner.jpg" alt="Banner">  
+<table class="headline">
+    <tr class="headline">
+        <td class="headline"><img class="logo" src="../images/logo.png" alt="Logo"></td>
+        <td class="header">ZENTROCDOT'S WORLD OF INFORMATION TECHNOLOGY</td>
+    </tr>
+</table>
+<hr style="width:100%;height:3px;border-width:0;color:gray;background-color:gray;">
+
+<!-- Set anchors for site navigation -->
+<div class="site_navigation_div">
+    <a class="site_navigation" href="../index.html">◀️ Go back to main page</a><br>    
+</div>
+<div class="site_navigation_div">
+    <a class="site_navigation" id="top-of-page" href="#bottom-of-page">⬇️ Jump to bottom of page</a>
+</div>
+    
+<h1>Extensions for the Web UI AUTOMATIC1111</h1>
+    
+<h2>Preface</h2>
+
+<p>When I talk about AI image generation, one must know that I am working with Stable Diffusion. There are a number of web UIs that can be
+used for the application of Stable Diffusion. Prominent ones are Easy Diffusion, AUTOMATIC1111, ComfyUI, Forge, Fooocus and InvokeAI.</p>
+
+<p>After working with the web UI Easy Diffusion, I switched to the web UI AUTOMATIC1111. The reason for switching from one to another web
+UI is simple. I was more or less at the end of the possibilities which Easy Diffusion offered to me.</p>
+
+<p>When I reached my limits in terms of AI image generation, I started to build my own models in form of Embeddings, Hypernetworks, LORAs,
+DreamBooth models and merged base models. Within the model creation process, I realised that I was missing Extensions to be able to work
+better.</p>
+
+<p>I have learnt how to program such extensions for AUTOMATIC1111. A great advantage of using AUTOMATIC1111 is precisely the possibility of
+implementing such user-programmed extensions. With these extensions, the possibilities of AUTOMATIC1111 can be extended considerably.</p>
+    
+<h2>Available Extensions</h2> 
+
+<p>In the first 10 days that I have been working on programming in AUTOMATIC1111, one can not expect miracles. Most of the subsequent listed
+Extensions have be written in this time frame. The Extensions got better with the learning effect I had. Since my extensions for the AUTOMATIC1111
+are not of high enough quality, as the AUTOMATIC contributors say, to say it diplomatically, I will leave the availability of the Extension via this 
+website. I leave it to the user to judge their usefulness. The Extensions fulfil their purpose and do what they are supposed to and are a great help
+to me.</p>
+
+<ul class="list">
+    <li><a href="https://github.com/zentrocdot/sd-webui-adjust_lora_filename">sd-webui-adjust_lora_filename</a></li>
+        <ul>
+            <li>Adds a tab in which the LoRA tag for the output file can be checked and updated</li>
+        </ul>    
+    <li><a href="https://github.com/zentrocdot/sd-webui-lora_metadata_viewer">sd-webui-lora_metadata_viewer</a></li>
+        <ul>
+            <li>Adds a tab in which the LoRA metadata can be displayed, downloaded and copied</li>
+        </ul>
+    <li><a href="https://github.com/zentrocdot/sd-webui-predefined_aspect_ratios">sd-webui-predefined_aspect_ratios</a></li>
+        <ul>
+            <li>Extensions which is adding predefined aspect ratio buttons to the web UI</li>
+        </ul>
+    <li><a href="https://github.com/zentrocdot/sd-webui-aspect_ratios-dd">sd-webui-aspect_ratios-dd</a></li>
+        <ul>
+            <li>Extensions which is adding predefined aspect ratio selectable via a dropdown menu to the web UI</li>
+        </ul>
+    <li><a href="https://github.com/zentrocdot/sd-webui-calc_aspect_ratio">sd-webui-calc_aspect_ratio</a></li>
+        <ul>
+            <li>Calculates the aspect ratio from Width and Hight of the web UI</li>
+        </ul>
+    <li><a href="https://github.com/zentrocdot/sd-webui-aspect_ratio_calc">sd-webui-aspect_ratio_calc</a></li>
+        <ul>
+            <li>Calculates the aspect ratio from given Width and Hight or from the given values by the web UI</li>
+        </ul>
+    <li><a href="https://github.com/zentrocdot/sd-webui-aspect_ratio2width_height">sd-webui-aspect_ratio2width_height</a></li>
+        <ul>
+            <li>Calculates Width and Hight from a given aspect ratio and allows taking them over to the web UI</li>
+        </ul>
+</ul>
+
+<p>The list of Extensions will be updated here by me if necessary.</p>
+
+<h2>Installation of the Extensions</h2>
+
+<p>The installation of each Extension is as easy as it is. Go to tab Extensions and go to tab Install from URL. Put in the link from the reference and your are done.</p>
+
+<p>Due to my bad personal experience with AUTOMATIC1111 contributors, I will not be making any further attempts to have my extensions added to their official list.</p>
+
+<h1>Final Words</h1>
+    
+<p>It remains to be seen whether I will remain loyal to AUTOMATIC1111 in the long term. Unfortunately, one have to assume that the days of 
+AUTOMATIC1111 are numbered, as there is no adaptation to the current versions of Gradio, for example. Various Python modules are already in
+conflict with each other if you keep the systems in use up to date. More problematic are the bugs of the Gradio version, which is in use by
+AUTOMATIC1111. These make programming the simplest Extension next to other reasons very laborious.<p> 
+
+<p>It is not desired and not allowed without my explicit permission to add my Extensions that I have painstakingly written the last week over
+to the AUTOMATIC1111 Extension Repository.</p>
+    
+<h1>How To Get In Touch With Me</h1>
+
+<p>Best way to get in touch with me is using <a href="https://discord.gg/T4NsWzrk">Discord</a>. Following the invitation link and visit
+me at Discord for communication with me and get also more informations. On X as well as on Bluesky I am not answering or responding anymore.
+Most of the enquiries there are fraud attempts or something similar.</p>
+
+<h1>References</h1>
+
+[1] <a href="https://easydiffusion.github.io/">https://easydiffusion.github.io/</a><br><br>
+[2] <a href="https://github.com/easydiffusion/easydiffusion">https://github.com/easydiffusion/easydiffusion</a><br><br>
+[3] <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">https://github.com/AUTOMATIC1111/stable-diffusion-webui</a><br><br>
+[4] <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui-extensions">https://github.com/AUTOMATIC1111/stable-diffusion-webui-extensions</a><br><br>   
+[5] <a href="https://github.com/CompVis/stable-diffusion">https://github.com/CompVis/stable-diffusion</a><br><br>
+[6] <a href="https://www.gradio.app/">https://www.gradio.app/</a><br><br>
+
+<!-- Set anchors for site navigation -->
+<div class="site_navigation_div">
+    <a id="bottom-of-page" href="#top-of-page" style="text-decoration:none">⬆️ Jump to top of page</a>
+</div>
+<div class="site_navigation_div">    
+    <a href="../index.html" style="text-decoration:none">◀️ Go back to main page</a> 
+</div>
+    
+<!-- Donation section starts here -->
+<hr style="width:100%;height:3px;border-width:0;color:gray;background-color:gray">   
+<p class="support">There are various ways to support my work, if you like to do. One option is to purchase some of my extraordinary <a href="https://opensea.io/zentrocdot">NFTs</a>.</p>
+<hr style="width:90%;height:1px;border-width:0;color:#79d6b5;background-color:#79d6b5"> 
+<p class="support">I loved the time when you could get also a hamburger for one Euro!</p>   
+<a href="https://www.buymeacoffee.com/zentrocdot">
+<img class="bmac_img" src="../images/greeen-button.png" alt="Buy Me A Coffee">
+</a> 
+<hr style="width:90%;height:1px;border-width:0;color:#79d6b5;background-color:#79d6b5"> 
+<p class="support">If you like what I present here, or if it helps you, or if it is useful for you, you are welcome to donate
+a small contribution by use one of my favourite crypto coins.</p>
+<div class="center_block">
+<pre class="center_inline">
+TQHgMpVzWkf3Lkd68QS7tcn7S5Y9ayg6Fu            (TRON)
+DQYkNGW8VfCuUbM9Womnp6KiFdtMa4NUkD            (DOGE)
+bc1quy5nr5x4xgrtmnknuayysapg8t8tl4jqsgcu2t    (BITCOIN)
+0xD238a487F5147AC23c25908FC86129889E38BfB9    (Ethereum)
+</pre>
+</div>
+<p class="support">Many thanks in advance!</p>
+<hr style="width:100%;height:3px;border-width:0;color:gray;background-color:gray">
+
+<!-- Avatar section starts here -->
+<p class="footer">Peace on earth for everyone! Have a nice day!</p>
+<img class="avatar" src="../images/512x512pixel.jpg" alt="avatar zentrocdot">
+
+<!-- Footer starts here -->
+<p class="footer">Content &#169; 2022-2024, zentrocdot<br>Hosted on <a href="http://pages.github.com">GitHub Pages</a></p>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fzentrocdot.github.io%2Fhtml%2Fextensions">
+<img class="w3c_img" src="../images/valid-html401.png" alt="w3c validator">
+</a> 
+    
+</body>
+</html>
