@@ -49,7 +49,7 @@ table {
     width: 50%;
     border-collapse: collapse;    
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     text-align: left;
     border: 1px dotted LightGrey;
     /* padding: top right bottom left */
