@@ -145,10 +145,9 @@ img {
     padding-bottom: 0px;
 }
 /* Modify list tag ul, li */
-/* ul {
-    margin: 5px;
-    padding: 5px;
-} */
+ul {
+    list-style-type: '🌐';
+}
 li {
     margin: 2px;
     padding: 2px;
