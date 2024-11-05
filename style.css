@@ -150,8 +150,9 @@ img {
     padding: 5px;
 } */
 .mm {
-    margin: 3px;
-    padding: 3px;
+    margin: 2px;
+    padding: 2px;
+    margin-left: 10px;
 }
 /* Crypto coin block */
 .center_block {
