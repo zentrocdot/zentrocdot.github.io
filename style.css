@@ -151,16 +151,16 @@ li {
 /* Modify list tag */
 .list {
     /* margin: top | right | bottom | left */
-    margin: 5px 10px 10px 10px;
+    margin: 5px 10px 5px 10px;
     /* padding: top | right | bottom | left */
     padding: 10px 10px 10px 10px;
 }
 /* Modify list tag */
 ul {
     /* margin: top | right | bottom | left */
-    margin: 5px 10px 10px 10px;
+    margin: 5px 10px 5px 10px;
     /* padding: top | right | bottom | left */
-    padding: 10px 10px 10px 10px;
+    padding: 5px 10px 5px 10px;
 }
 /* Crypto coin block */
 .center_block {
