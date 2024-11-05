@@ -151,9 +151,9 @@ li {
 /* Modify list tag */
 .list {
     /* margin: top | right | bottom | left */
-    margin: 5px 10px 5px 10px;
+    margin: 15px 10px 5px 0px;
     /* padding: top | right | bottom | left */
-    padding: 10px 10px 10px 10px;
+    padding: 15px 10px 5px 0px;
 }
 /* Modify list tag */
 ul {
