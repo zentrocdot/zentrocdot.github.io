@@ -157,9 +157,9 @@ li {
     padding: 20px;
 } */
 
-ul.browser {
+ul {
     /* list-style-type: '🌐&nbsp;&nbsp'; */
-    list-style-type: '🌐 ';
+    list-style-type: "'🌐 '";
     margin: 20px;
     padding: 20px;
 }
