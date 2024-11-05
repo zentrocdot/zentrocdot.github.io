@@ -158,10 +158,8 @@ li {
 } */
 
 ul {
-    /* list-style-type: '🌐&nbsp;&nbsp'; */
-    list-style-type: "'🌐 '";
     margin: 10px;
-    padding: 20px;
+    padding: 40px;
 }
 
 
