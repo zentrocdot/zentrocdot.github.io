@@ -149,16 +149,16 @@ li {
     padding-bottom: 0px;
 }
 /* Modify list tag ul */
-ul {
+/* ul {
     /* margin: top | right | bottom | left */
     /* margin: 15px 10px 5px 0px; */
     /* padding: top | right | bottom | left */
     margin 30px;
     padding: 20px;
-}
+} */
 
 ul.browser {
-    list-style-type: "🌐&nbsp;&nbsp";
+    list-style-type: '🌐&nbsp;&nbsp';
     margin 30px;
     padding: 20px;
 }
