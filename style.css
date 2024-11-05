@@ -163,6 +163,11 @@ ul {
 }
 
 
+li {
+    margin: 10px;
+    padding: 40px;
+}
+
 /* Crypto coin block */
 .center_block {
     display: inline-block;
