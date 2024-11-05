@@ -150,10 +150,9 @@ li {
 }
 
 .list {
-    /* margin-top: 10px;
-    margin-bottom: 20px; */
+    /* margin: top | right | bottom | left */
     margin: 5px 10px 10px 10px;
-    /* padding: top right bottom left */
+    /* padding: top | right | bottom | left */
     padding: 10px 10px 10px 10px;
 }
 /* Crypto coin block */
