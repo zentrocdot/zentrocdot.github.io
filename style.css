@@ -146,6 +146,7 @@ img {
 }
 /* Modify list tag ul, li */
 ul {
+    margin-left: 60px;
     margin: 0px;
     padding: 0px;
 }
