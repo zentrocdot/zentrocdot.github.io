@@ -84,10 +84,10 @@ img {
     /* padding: top right bottom left */
     padding: 0px 0px 0px 0px;
 }  
-li {
+ /* li {
     /* margin: top left */
     margin: 5px 5px;
-}
+} */
 .banner {
     border-radius: 10px;
     vertical-align: middle;
@@ -154,8 +154,8 @@ ul {
     padding: 40px;
 }
 li {
-    margin: 10px;
-    padding: 40px;
+    margin: 5px;
+    padding: 0px;
 }
 /* Crypto coin block */
 .center_block {
