@@ -149,10 +149,10 @@ ul {
     margin: 5px;
     padding: 10px;
 }
-/* li {
-    margin: 10px 0px;
-    padding: 20px 0px;
-} */
+li {
+    margin: 5px;
+    padding: 10px;
+}
 /* Crypto coin block */
 .center_block {
     display: inline-block;
