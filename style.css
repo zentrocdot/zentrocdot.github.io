@@ -156,6 +156,14 @@ ul {
     margin 30px;
     padding: 20px;
 }
+
+ul.browser {
+    list-style-type: "🌐&nbsp;&nbsp";
+    margin 30px;
+    padding: 20px;
+}
+
+
 /* Crypto coin block */
 .center_block {
     display: inline-block;
