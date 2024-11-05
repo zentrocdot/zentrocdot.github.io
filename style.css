@@ -158,8 +158,9 @@ li {
 } */
 
 ul.browser {
-    list-style-type: '🌐&nbsp;&nbsp';
-    margin 30px;
+    /* list-style-type: '🌐&nbsp;&nbsp'; */
+    list-style-type: '🌐. ';
+    margin 20px;
     padding: 20px;
 }
 
