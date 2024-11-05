@@ -146,8 +146,8 @@ img {
 }
 /* Modify list tag ul, li */
 ul {
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 }
 li {
     margin: 10px;
