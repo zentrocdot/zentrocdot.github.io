@@ -171,7 +171,12 @@ li {
     /* padding: top right bottom left */
     padding: 10px 10px 10px 10px;
 }
-.site_navigation {
+/* Site navigation link styles. Outer block is tag 'div' and inner block is tag 'a'. */
+.site_navigation_div {
+    outline: none;
+    line-height: 150%
+}
+.site_navigation_a {
     outline: none;
     border: 0;
     text-decoration: none;
@@ -179,7 +184,4 @@ li {
     /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
 }    
-.site_navigation_div {
-    outline: none;
-    line-height: 150%
-}
+
