@@ -152,8 +152,8 @@ img {
 } */
 li {
     margin-left: 10px;
-    margin-bottom: 10px;
-    padding-left: 100px;
+    margin-bottom: 0px;
+    padding-left: 50px;
 }
 /* Crypto coin block */
 .center_block {
