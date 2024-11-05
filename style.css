@@ -151,8 +151,8 @@ ul {
 li {
     margin: 2px;
     padding: 2px;
-    margin-left: 5px;
-    padding-left: 40px;
+    margin-left: 0px;
+    padding-left: 30px;
 }
 /* Crypto coin block */
 .center_block {
