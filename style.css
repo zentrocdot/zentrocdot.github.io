@@ -156,16 +156,17 @@ ul.earth_americas {
     list-style-type: '🌎';
 }
 /* Modify list tag ul, li */
-ul_globe {
+ul.globe {
     list-style-type: '🌐';
 }
+/* Modify list item style. 
 li {
-    margin: 2px;
-    padding: 2px;
-    margin-left: 0px;
+    margin: 3px;
+    padding: 3px;
+    margin-left: 10px;
     padding-left: 10px;
 }
-/* Crypto coin block.
+/* Crypto coin block style.
    Outer block is tag '_block' and inner block is tag '_inline'.
 */
 .center_block {
