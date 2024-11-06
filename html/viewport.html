@@ -65,18 +65,17 @@
     var avail_height
     avail_width = screen.availWidth   
     avail_height = screen.availHeight
-
+    // doc client size
     var w1 = document.documentElement.clientWidth
     var h1 = document.documentElement.clientHeight
-
+    // doc body client size
     var w2 = document.body.clientWidth
     var h2 = document.body.clientHeight 
-    
     // Output of the result.
     document.write('<p>The screen width and height is: '+avail_width+' x '+avail_height+'</p>');
     document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
-    document.write('<p>The ??? width and height is: '+w1+' x '+h1+'</p>');
-    document.write('<p>The ??? width and height is: '+w2+' x '+h2+'</p>');
+    document.write('<p>The document element client width and height is: '+w1+' x '+h1+'</p>');
+    document.write('<p>Body client width and height is: '+w2+' x '+h2+'</p>');
 //-->
 </script>
 
