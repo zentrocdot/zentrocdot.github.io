@@ -74,10 +74,28 @@
     // Output of the result.
     document.write('<p>The screen width and height is: '+avail_width+' x '+avail_height+'</p>');
     document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
-    document.write('<p>The document element client width and height is: '+w1+' x '+h1+'</p>');
-    document.write('<p>Body client width and height is: '+w2+' x '+h2+'</p>');
+    document.write('<p>The document element width and height is: '+w1+' x '+h1+'</p>');
+    document.write('<p>The document body width and height is: '+w2+' x '+h2+'</p>');
 //-->
 </script>
+
+screen.width                // Device screen width (i.e. all physically visible stuff)<br>
+screen.height               // Device screen height (i.e. all physically visible stuff)<br><br>
+
+screen.availWidth           // Device screen width, minus the operating system taskbar (if present)<br>
+screen.availHeight          // Device screen height minus the operating system taskbar (if present)<br><br>
+
+window.innerWidth           // The browser viewport width (including vertical scroll bar, includes padding but not border or margin)<br>
+window.innerHeight          // The current document's viewport height, minus taskbars, etc.<br><br>    
+
+window.outerWidth           // The outer window width (including vertical scroll bar,<br>
+                            // toolbars, etc., includes padding and border but not margin)<br>
+window.outerHeight          // Height the current window visibly takes up on screen<br> 
+                            // (including taskbars, menus, etc.)<br><br>
+    
+document.body.clientWidth   // Full width of the HTML page as coded, minus the vertical scroll bar<br>
+document.body.clientHeight  // Inner height of the HTML document body, including padding<br> 
+                            // but not the horizontal scrollbar height, border, or margin<br><br>
 
 <!-- Set anchors for site navigation -->
 <div class="site_navigation_div">
