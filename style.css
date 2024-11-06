@@ -190,11 +190,9 @@ li {
 */
 .site_navigation_div {
     line-height: 175%;
-    /* margin-bottom: 2px; */
 }
 .site_navigation_a {
     border: 0;
     outline: none;    
     text-decoration: none;
-    /* margin-bottom: 2px; */
 }    
