@@ -195,13 +195,3 @@ li {
     /* padding: top right bottom left */
     padding: 10px 0px 20px 0px;
 }
-.svg_outer {
-    width: 95%;
-    height: 50px;
-    margin-left: 10px;
-}
-.svg_inner {
-    width: 90%;
-    height: 40px;
-    margin-left: 10px;
-}
