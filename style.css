@@ -120,14 +120,6 @@ img {
     text-align: center; 
     font-size: 0.7em;    
 }    
-.w3c_img {
-    display: block;
-    margin-left: 45%;
-    margin-right: 45%;
-    width: 10%;
-    /* padding: top right bottom left */
-    padding: 10px 0px 20px 0px;
-}
 .bmac_img {
     display: block;
     margin-left: 42%;
@@ -192,4 +184,13 @@ li {
     border: 0;
     outline: none;    
     text-decoration: none;
-}    
+}   
+/* Footer w3c */
+.w3c_img {
+    display: block;
+    margin-left: 44%;
+    margin-right: 44%;
+    width: 12%;
+    /* padding: top right bottom left */
+    padding: 10px 0px 20px 0px;
+}
