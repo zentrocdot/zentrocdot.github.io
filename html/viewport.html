@@ -61,11 +61,11 @@
         viewportheight = document.getElementsByTagName('body')[0].clientHeight
     }
     document.write('<p>Your viewport width is '+viewportwidth+'x'+viewportheight+'</p>');
-    
-    const width  = window.innerWidth || document.documentElement.clientWidth || 
-    document.body.clientWidth;
-    const height = window.innerHeight|| document.documentElement.clientHeight|| 
-    document.body.clientHeight;
+    var avail_width
+    var avail_height
+    avail_width = screen.availHeight 
+    avail_height = screen.availWidth                  
+    document.write('<p>Your viewport width is '+avail_width+'x'+avail_height+'</p>');
 //-->
 </script>
 
