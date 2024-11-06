@@ -144,6 +144,14 @@ img {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+/* Style list items by image. 
+   Modify the list tag ul */
+ul.art {
+    list-style-type: '🎨';
+}
+ul.black_nib {
+    list-style-type: '✒️';
+}
 /* Modify list tag ul, li */
 ul {
     list-style-type: '🌐';
