@@ -74,10 +74,14 @@
     // screen size
     var w0 = screen.width 
     var h0 = screen.height
+    // Outer size
+    var w3 = window.outerWidth  
+    var h3 = window.outerHeight
     // Output of the result.
     document.write('<p>The physical screen width and height is: '+w0+' x '+h0+'</p>');
     document.write('<p>The available screen width and height is: '+avail_width+' x '+avail_height+'</p>');    
     document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
+    document.write('<p>The outer viewport width and height is: '+w3+' x '+h3+'</p>');
     document.write('<p>The document element width and height is: '+w1+' x '+h1+'</p>');
     document.write('<p>The document body width and height is: '+w2+' x '+h2+'</p>');
 //-->
@@ -90,8 +94,8 @@ screen.height               // Physical device screen height<br>
 screen.availWidth           // Available screen width, minus taskbar of the operating system (if present)
 screen.availHeight          // Available screen height, minus taskbar of the operating system (if present)<br>
 
-window.innerWidth           // The browser viewport width (including vertical scroll bar, includes padding but not border or margin)
-window.innerHeight          // The current document's viewport height, minus taskbars, etc.<br>   
+window.innerWidth           // The current browser's visible viewport width including vertical scroll bar
+window.innerHeight          // The current browser's visible viewport height including horizontal scroll bar<br>   
 
 window.outerWidth           // The outer window width (including vertical scroll bar,
                             // toolbars, etc., includes padding and border but not margin)
