@@ -195,3 +195,8 @@ li {
     /* padding: top right bottom left */
     padding: 10px 0px 20px 0px;
 }
+.svg_example {
+    width: 95%;
+    height: 50px;
+    margin-left: 10px;
+}
