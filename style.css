@@ -160,8 +160,8 @@ ul.globe {
 }
 /* Modify list item style. */
 li {
-    margin: 3px;
-    padding: 3px;
+    margin: 1px;
+    padding: 1px;
     margin-left: 10px;
     padding-left: 10px;
 }
