@@ -189,7 +189,7 @@ li {
    Outer block is tag 'div' and inner block is tag 'a'. 
 */
 .site_navigation_div {
-    line-height: 200%;
+    line-height: 175%;
     margin-bottom: 20px;
 }
 .site_navigation_a {
