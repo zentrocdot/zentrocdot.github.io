@@ -54,18 +54,25 @@
         viewportwidth = document.documentElement.clientWidth,
         viewportheight = document.documentElement.clientHeight
     }
-    // older versions of IE
+    // Older versions of IE.
     else
     {
         viewportwidth = document.getElementsByTagName('body')[0].clientWidth,
         viewportheight = document.getElementsByTagName('body')[0].clientHeight
     }
-    document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
+    // Screen size.
     var avail_width
     var avail_height
     avail_width = screen.availWidth   
-    avail_height = screen.availHeight                  
+    avail_height = screen.availHeight
+
+    var w1 = document.documentElement.clientWidth
+    var h1 = document.documentElement.clientHeight
+    
+    // Output of the result.
     document.write('<p>The screen width and height is: '+avail_width+' x '+avail_height+'</p>');
+    document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
+    document.write('<p>The ??? width and height is: '+w1+' x '+h1+'</p>');
 //-->
 </script>
 
