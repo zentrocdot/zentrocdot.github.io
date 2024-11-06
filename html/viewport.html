@@ -60,23 +60,24 @@
         viewportwidth = document.getElementsByTagName('body')[0].clientWidth,
         viewportheight = document.getElementsByTagName('body')[0].clientHeight
     }
+    // screen size
+    var w0 = screen.width 
+    var h0 = screen.height
     // Screen size.
-    var avail_width
-    var avail_height
-    avail_width = screen.availWidth   
-    avail_height = screen.availHeight
+    var avail_width = screen.availWidth  
+    var avail_height = screen.availHeight
+    // Outer size
+    var w3 = window.outerWidth  
+    var h3 = window.outerHeight
+    // Inner size
+    var w4 = window.innerWidth   
+    var h4 = window.innerHeight  
     // doc client size
     var w1 = document.documentElement.clientWidth
     var h1 = document.documentElement.clientHeight
     // doc body client size
     var w2 = document.body.clientWidth
-    var h2 = document.body.clientHeight 
-    // screen size
-    var w0 = screen.width 
-    var h0 = screen.height
-    // Outer size
-    var w3 = window.outerWidth  
-    var h3 = window.outerHeight
+    var h2 = document.body.clientHeight     
     // Output of the result.
     document.write('<p>The physical screen width and height is: '+w0+' x '+h0+'</p>');
     document.write('<p>The available screen width and height is: '+avail_width+' x '+avail_height+'</p>');    
@@ -88,20 +89,23 @@
 </script>
 
 <pre>
-screen.width                // Physical device screen width
-screen.height               // Physical device screen height
+screen.width                           // Physical device screen width
+screen.height                          // Physical device screen height
 
-screen.availWidth           // Available screen width, minus taskbar etc. of the operating system
-screen.availHeight          // Available screen height, minus taskbar etc. of the operating system
+screen.availWidth                      // Available screen width, minus taskbar etc. of the operating system
+screen.availHeight                     // Available screen height, minus taskbar etc. of the operating system
     
-window.innerWidth           // The current browser's visible viewport (window) width including vertical scroll bar
-window.innerHeight          // The current browser's visible viewport (window) height including horizontal scroll bar  
+window.innerWidth                      // The current browser's visible viewport (window) width including vertical scroll bar
+window.innerHeight                     // The current browser's visible viewport (window) height including horizontal scroll bar  
 
-window.outerWidth           // The outer browser's window width including vertical scroll bar, toolbars, sidebars etc.
-window.outerHeight          // The outer browser's window height including horizontal scroll bar, taskbars, menubars, etc.
+window.outerWidth                      // The outer browser's window width including vertical scroll bar, toolbars, sidebars etc.
+window.outerHeight                     // The outer browser's window height including horizontal scroll bar, taskbars, menubars, etc.
+
+document.documentElement.clientWidth   // Visible width of the HTML page, minus vertical scroll bar
+document.documentElement.clientHeight  // Visible height of the HTML page, minus horizontal scrollbar
     
-document.body.clientWidth   // Full width of the HTML page, minus vertical scroll bar
-document.body.clientHeight  // Full height of the HTML page, minus horizontal scrollbar
+document.body.clientWidth              // Full width of the HTML page, minus vertical scroll bar
+document.body.clientHeight             // Full height of the HTML page, minus horizontal scrollbar
 </pre>
 
 <!-- Set anchors for site navigation -->
