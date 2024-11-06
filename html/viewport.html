@@ -71,8 +71,12 @@
     // doc body client size
     var w2 = document.body.clientWidth
     var h2 = document.body.clientHeight 
+
+    var w0 = screen.width 
+    var h0 = screen.height
     // Output of the result.
-    document.write('<p>The screen width and height is: '+avail_width+' x '+avail_height+'</p>');
+    document.write('<p>The screen available width and height is: '+avail_width+' x '+avail_height+'</p>');
+    document.write('<p>The screen width and height is: '+w0+' x '+h0+'</p>');
     document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
     document.write('<p>The document element width and height is: '+w1+' x '+h1+'</p>');
     document.write('<p>The document body width and height is: '+w2+' x '+h2+'</p>');
