@@ -155,11 +155,10 @@ ul.black_nib {
 ul.earth_americas {
     list-style-type: '🌎';
 }
-/* Modify list tag ul, li */
 ul.globe {
     list-style-type: '🌐';
 }
-/* Modify list item style. 
+/* Modify list item style. */
 li {
     margin: 3px;
     padding: 3px;
