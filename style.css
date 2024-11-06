@@ -152,8 +152,11 @@ ul.art {
 ul.black_nib {
     list-style-type: '✒️';
 }
+ul.earth_americas {
+    list-style-type: '🌎';
+}
 /* Modify list tag ul, li */
-ul {
+ul_globe {
     list-style-type: '🌐';
 }
 li {
@@ -162,7 +165,9 @@ li {
     margin-left: 0px;
     padding-left: 10px;
 }
-/* Crypto coin block */
+/* Crypto coin block.
+   Outer block is tag '_block' and inner block is tag '_inline'.
+*/
 .center_block {
     display: inline-block;
     border: 4px solid #79d6b5; 
@@ -174,16 +179,18 @@ li {
     margin-bottom: 0px;
 }
 .center_inline {
-    text-align: left;
+    width: 50%; 
     margin-left: 25%;
     margin-right: 25%;
-    width: 50%;     
+    text-align: left;        
     padding: 0px;
 }
-/* Site navigation link styles. Outer block is tag 'div' and inner block is tag 'a'. */
+/* Site navigation link styles. 
+   Outer block is tag 'div' and inner block is tag 'a'. 
+*/
 .site_navigation_div {
-    outline: none;
-    line-height: 150%;
+    /* outline: none; */
+    line-height: 250%;
     margin-bottom: 20px 20px;
 }
 .site_navigation_a {
@@ -194,4 +201,3 @@ li {
     /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
 }    
-
