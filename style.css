@@ -189,15 +189,14 @@ li {
    Outer block is tag 'div' and inner block is tag 'a'. 
 */
 .site_navigation_div {
-    /* outline: none; */
-    line-height: 250%;
-    margin-bottom: 20px 20px;
+    line-height: 200%;
+    margin-bottom: 20px;
 }
 .site_navigation_a {
-    outline: none;
     border: 0;
+    outline: none;    
     text-decoration: none;
-    margin-bottom: 20px 20px;
+    margin-bottom: 20px;
     /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
 }    
