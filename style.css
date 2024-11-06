@@ -31,15 +31,12 @@ td.headline {
     padding: 2px 2px 2px 2px;
 }
 .header {
-    /* font-family: "Courier New"; */
-    /* font-family: "Georgia"; */
     font-family: "Trebuchet MS";
     font-weight: bold;
     font-size: 3.1vw;
-    /* font-size: 42px; */
+    border: none;
     margin-top: 0px;
     margin-left: 10px;
-    border: none;
     /* padding: top right bottom left */
     padding: 5px 5px 5px 5px;
 }
