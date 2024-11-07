@@ -206,9 +206,9 @@ li {
 }
 .img_img {
     display: block;
-    margin-left: 5%;
-    margin-right: 85%;
-    width: 10%;
+    margin-left: 0%;
+    margin-right: auto;
+    width: 380px;
     /* padding: top right bottom left */
     /*padding: 5px 0px 20px 0px; */
 }
