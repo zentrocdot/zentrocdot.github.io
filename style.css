@@ -211,4 +211,6 @@ li {
     margin-left: 1%;
     margin-right: 69%;
     width: 30%;
+    /* padding: top right bottom left */
+    padding: 5px 0px 20px 0px;
 }
