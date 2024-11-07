@@ -38,6 +38,7 @@
 
 <script type="text/javascript">
 <!--
+    // Resources to check:
     // https://andylangton.co.uk/web-development/get-viewport-size-width-and-height-with-javascript/
     // https://stackoverflow.com/questions/3437786/get-the-size-of-the-screen-current-web-page-and-browser-window
     // https://www.mediaevent.de/javascript/window-browserfenster.html
@@ -45,16 +46,16 @@
     // https://stackoverflow.com/questions/1248081/how-to-get-the-browser-viewport-dimensions
     var viewportwidth;
     var viewportheight;
-    // the more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight
+    // The more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight.
     if (typeof window.innerWidth != 'undefined')
     {
         viewportwidth = window.innerWidth,
         viewportheight = window.innerHeight
     }
-    // IE6 in standards compliant mode (i.e. with a valid doctype as the first line in the document)
+    // Browser IE6 in standard compliant mode (i.e. with a valid doctype as the first line in the document)
     else if (typeof document.documentElement != 'undefined'
-        && typeof document.documentElement.clientWidth !=
-        'undefined' && document.documentElement.clientWidth != 0)
+        && typeof document.documentElement.clientWidth != 'undefined'
+        && document.documentElement.clientWidth != 0)
     {
         viewportwidth = document.documentElement.clientWidth,
         viewportheight = document.documentElement.clientHeight
@@ -65,9 +66,9 @@
         viewportwidth = document.getElementsByTagName('body')[0].clientWidth,
         viewportheight = document.getElementsByTagName('body')[0].clientHeight
     }
-    // screen size
-    var w0 = screen.width 
-    var h0 = screen.height
+    // Get the screen size.
+    var screen_width = screen.width 
+    var screen_height = screen.height
     // Screen size.
     var avail_width = screen.availWidth  
     var avail_height = screen.availHeight
@@ -84,7 +85,7 @@
     var w2 = document.body.clientWidth
     var h2 = document.body.clientHeight     
     // Output of the result.
-    document.write('<p>The physical screen width and height is: '+w0+' x '+h0+'</p>');
+    document.write('<p>The physical screen width and height is: '+screen_width+' x '+screen_height+'</p>');
     document.write('<p>The available screen width and height is: '+avail_width+' x '+avail_height+'</p>');    
     document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
     document.write('<p>The outer viewport width and height is: '+w3+' x '+h3+'</p>');
