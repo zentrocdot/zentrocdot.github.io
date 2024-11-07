@@ -33,26 +33,31 @@
 <div class="site_navigation_div">
     <a class="site_navigation_a" id="top-of-page" href="#bottom-of-page">⬇️ Jump to bottom of page</a>
 </div>
+
+<!---
+// Resources to check:
+// https://andylangton.co.uk/web-development/get-viewport-size-width-and-height-with-javascript/
+// https://stackoverflow.com/questions/3437786/get-the-size-of-the-screen-current-web-page-and-browser-window
+// https://www.mediaevent.de/javascript/window-browserfenster.html
+// https://stackoverflow.com/questions/1766861/find-the-exact-height-and-width-of-the-viewport-in-a-cross-browser-way
+// https://stackoverflow.com/questions/1248081/how-to-get-the-browser-viewport-dimensions
+-->
     
+<h1>Screen Related Informations</h1>
+
 <h1>Viewport</h1>
 
 <script type="text/javascript">
 <!--
-    // Resources to check:
-    // https://andylangton.co.uk/web-development/get-viewport-size-width-and-height-with-javascript/
-    // https://stackoverflow.com/questions/3437786/get-the-size-of-the-screen-current-web-page-and-browser-window
-    // https://www.mediaevent.de/javascript/window-browserfenster.html
-    // https://stackoverflow.com/questions/1766861/find-the-exact-height-and-width-of-the-viewport-in-a-cross-browser-way
-    // https://stackoverflow.com/questions/1248081/how-to-get-the-browser-viewport-dimensions
     var viewportwidth;
     var viewportheight;
-    // The more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight.
+    // The more standards compliant browsers (mozilla/netscape/opera/IE7) should use window.innerWidth and window.innerHeight. To be checked.
     if (typeof window.innerWidth != 'undefined')
     {
         viewportwidth = window.innerWidth,
         viewportheight = window.innerHeight
     }
-    // Browser IE6 in standard compliant mode (i.e. with a valid doctype as the first line in the document)
+    // Old browser IE6 in standard compliant mode (i.e. with a valid doctype as the first line in the document).
     else if (typeof document.documentElement != 'undefined'
         && typeof document.documentElement.clientWidth != 'undefined'
         && document.documentElement.clientWidth != 0)
@@ -60,16 +65,25 @@
         viewportwidth = document.documentElement.clientWidth,
         viewportheight = document.documentElement.clientHeight
     }
-    // Older versions of IE.
+    // Much older versions of IE. To be checked.
     else
     {
         viewportwidth = document.getElementsByTagName('body')[0].clientWidth,
         viewportheight = document.getElementsByTagName('body')[0].clientHeight
     }
+    // Output of the result.   
+    document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
+//-->
+</script>
+
+<h1>Viewport</h1>
+
+<script type="text/javascript">
+<!--
     // Get the screen size.
     var screen_width = screen.width 
     var screen_height = screen.height
-    // Screen size.
+    // Get the available screen size.
     var avail_width = screen.availWidth  
     var avail_height = screen.availHeight
     // Outer size
@@ -87,13 +101,15 @@
     // Output of the result.
     document.write('<p>The physical screen width and height is: '+screen_width+' x '+screen_height+'</p>');
     document.write('<p>The available screen width and height is: '+avail_width+' x '+avail_height+'</p>');    
-    document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
+    document.write('<p>The viewport width and height is: '+w4+' x '+h4+'</p>');
     document.write('<p>The outer viewport width and height is: '+w3+' x '+h3+'</p>');
     document.write('<p>The document element width and height is: '+w1+' x '+h1+'</p>');
     document.write('<p>The document body width and height is: '+w2+' x '+h2+'</p>');
 //-->
 </script>
 
+<h1>Rudimentary Explanation</h1>
+    
 <pre>
 screen.width                           // Physical device screen width
 screen.height                          // Physical device screen height
