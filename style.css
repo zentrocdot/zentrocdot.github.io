@@ -180,18 +180,27 @@ li {
 /* Footer Buymeacoffee */
 .bmac_img {
     display: block;
-    margin-left: 42%;
-    margin-right: 42%;
-    width: 16%;
+    margin-left: 43%;
+    margin-right: 43%;
+    width: 14%;
     /* padding: top right bottom left */
     padding: 10px 0px 20px 0px;
 }
 /* Footer w3c */
 .w3c_img {
     display: block;
-    margin-left: 46%;
-    margin-right: 46%;
-    width: 8%;
+    margin-left: 47%;
+    margin-right: 47%;
+    width: 6%;
+    /* padding: top right bottom left */
+    padding: 10px 0px 20px 0px;
+}
+/* Footer SEO */
+.seo_img {
+    display: block;
+    margin-left: 48%;
+    margin-right: 48%;
+    width: 4%;
     /* padding: top right bottom left */
     padding: 10px 0px 20px 0px;
 }
