@@ -51,13 +51,15 @@
 <!--
     var viewportwidth;
     var viewportheight;
-    // The more standards compliant browsers (mozilla/netscape/opera/IE7) should use window.innerWidth and window.innerHeight. To be checked.
+    // The more standards compliant browsers (mozilla/netscape/opera/IE7) should use window.innerWidth and window.innerHeight. 
+    // Has to be checked.
     if (typeof window.innerWidth != 'undefined')
     {
         viewportwidth = window.innerWidth,
         viewportheight = window.innerHeight
     }
     // Old browser IE6 in standard compliant mode (i.e. with a valid doctype as the first line in the document).
+    // Has to be checked.
     else if (typeof document.documentElement != 'undefined'
         && typeof document.documentElement.clientWidth != 'undefined'
         && document.documentElement.clientWidth != 0)
@@ -65,18 +67,33 @@
         viewportwidth = document.documentElement.clientWidth,
         viewportheight = document.documentElement.clientHeight
     }
-    // Much older versions of IE. To be checked.
+    // Much older versions of IE.
+    // Has to be checked.
     else
     {
         viewportwidth = document.getElementsByTagName('body')[0].clientWidth,
         viewportheight = document.getElementsByTagName('body')[0].clientHeight
     }
     // Output of the result.   
-    document.write('<p>The viewport width and height is: '+viewportwidth+' x '+viewportheight+'</p>');
+    document.write('<p>Viewport width and height: ' + viewportwidth + ' x ' + viewportheight + '</p>');
 //-->
 </script>
 
 <h2>Available Screen Informations</h2>
+
+<script type="text/javascript">
+<!--
+    // Get inner width and height.
+    var inner_width = window.innerWidth   
+    var inner_height = window.innerHeight 
+    // Get outer width and height.
+    var outer_width = window.outerWidth  
+    var outer_height = window.outerHeight  
+    // Write the result to the website.
+    document.write('<p>Inner viewport width and height: '+inner_width+' x '+inner_height+'</p>');
+    document.write('<p>Outer viewport width and height is: '+outer_width+' x '+outer_height+'</p><br>');
+//-->
+</script>
 
 <script type="text/javascript">
 <!--
@@ -86,12 +103,6 @@
     // Get the available screen size.
     var avail_width = screen.availWidth  
     var avail_height = screen.availHeight
-    // Inner size
-    var inner_width = window.innerWidth   
-    var inner_height = window.innerHeight 
-    // Outer size
-    var outer_width = window.outerWidth  
-    var outer_height = window.outerHeight 
     // doc client size
     var decw = document.documentElement.clientWidth
     var dech = document.documentElement.clientHeight
@@ -99,8 +110,6 @@
     var dbcw = document.body.clientWidth
     var dbch = document.body.clientHeight     
     // Output of the result.
-    document.write('<p>The (inner) viewport width and height is: '+inner_width+' x '+inner_height+'</p>');
-    document.write('<p>The outer viewport width and height is: '+outer_width+' x '+outer_height+'</p><br>');
     document.write('<p>The physical screen width and height is: '+screen_width+' x '+screen_height+'</p>');
     document.write('<p>The available screen width and height is: '+avail_width+' x '+avail_height+'</p><br>');            
     document.write('<p>The document element width and height is: '+decw+' x '+dech+'</p>');
