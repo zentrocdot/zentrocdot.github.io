@@ -11,13 +11,13 @@ body {
 }
 .social_media_div {
     display: inline;  
-    vertical-align: top;
+    vertical-align: bottom;
 }
 .social_media_p {
     /*font-family: Helvetica;
     font-size: 12px; */
     display: inline;  
-    vertical-align: middle;
+    vertical-align: top;
     /* margin-top: 8px;
     padding-top: 8px; */
 }
