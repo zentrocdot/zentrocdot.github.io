@@ -13,6 +13,7 @@ body {
     font-family: Helvetica;
     font-size: 0.5em;
     display: inline;
+    text-decoration: none;
 }
 /* Header section */
 table.headline {   
