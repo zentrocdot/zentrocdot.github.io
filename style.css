@@ -14,8 +14,8 @@ body {
     font-size: 12px;
     display: inline;
     text-decoration: none;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+    /* margin-bottom: 5px;
+    padding-bottom: 5px; */
     vertical-align: baseline;
 }
 /* Header section */
