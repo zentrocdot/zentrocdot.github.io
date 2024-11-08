@@ -11,14 +11,10 @@ body {
 }
 .social_media {
     font-family: Helvetica;
-    font-size: 12px;
+    font-size: 14px;
     display: inline;
     text-decoration: none;    
-    /* margin-top: 5px;
-    margin-bottom: 5px;  
-    padding-bottom: 5px; */
     vertical-align: middle;
-    margin: auto;
 }
 /* Header section */
 table.headline {   
