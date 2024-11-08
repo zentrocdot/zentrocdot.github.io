@@ -9,6 +9,10 @@ body {
     background-color: Snow;
     font-family: Helvetica;
 }
+.social_media {
+    font-family: Helvetica;
+    font-size: 0.5em;
+}
 /* Header section */
 table.headline {   
     width: 100%;
