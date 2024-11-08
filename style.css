@@ -16,7 +16,7 @@ body {
     text-decoration: none;
     /* margin-bottom: 5px;
     padding-bottom: 5px; */
-    vertical-align: baseline;
+    vertical-align: top;
 }
 /* Header section */
 table.headline {   
