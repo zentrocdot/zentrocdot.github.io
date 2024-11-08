@@ -10,11 +10,9 @@ body {
     font-family: Helvetica;
 }
 .social_media_div {
-    font-family: Helvetica;
-    font-size: 12px;
-    display: inline;
-    text-decoration: none;    
+    display: inline;  
     vertical-align: middle;
+    margin-top: 20px;
 }
 .social_media {
     font-family: Helvetica;
