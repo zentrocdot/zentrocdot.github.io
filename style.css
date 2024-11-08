@@ -9,13 +9,19 @@ body {
     background-color: Snow;
     font-family: Helvetica;
 }
-.social_media {
+.social_media_div {
     font-family: Helvetica;
     font-size: 12px;
     display: inline;
     text-decoration: none;    
     vertical-align: middle;
-    padding-bottom: 4px;
+}
+.social_media {
+    font-family: Helvetica;
+    font-size: 12px;
+    display: inline;
+    text-decoration: none;    
+    vertical-align: top;
 }
 /* Header section */
 table.headline {   
