@@ -14,10 +14,8 @@ body {
     vertical-align: middle;
 }
 .social_media_p {
-    /*font-family: Helvetica;
-    font-size: 12px; */
     display: inline;  
-    vertical-align: top;
+    vertical-align: middle;
     /* margin-top: 8px;
     padding-top: 8px; */
 }
