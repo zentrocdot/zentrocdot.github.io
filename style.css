@@ -11,8 +11,7 @@ body {
 }
 .social_media_div {
     display: inline;  
-    vertical-align: middle;
-    margin-top: 20px;
+    vertical-align: top;
 }
 .social_media {
     font-family: Helvetica;
