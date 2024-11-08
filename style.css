@@ -11,7 +11,7 @@ body {
 }
 .social_media_div {
     display: inline;  
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 .social_media_p {
     /*font-family: Helvetica;
