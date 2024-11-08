@@ -10,10 +10,16 @@ body {
     font-family: Helvetica;
 }
 .social_media_div {
+    /* font-family: Helvetica;
+    font-size: 12px; */
+    display: inline;  
+    vertical-align: middle;
+}
+.social_media_p {
     font-family: Helvetica;
     font-size: 12px;
     display: inline;  
-    vertical-align: middle;
+    vertical-align: top;
 }
 .social_media {
     font-family: Helvetica;
