@@ -18,8 +18,8 @@ body {
     font-size: 12px;
     display: inline;  
     vertical-align: top;
-    margin-top: 8px;
-    padding-top: 8px;
+    /* margin-top: 8px;
+    padding-top: 8px; */
 }
 .social_media {
     font-family: Helvetica;
