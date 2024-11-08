@@ -14,7 +14,7 @@ body {
     font-size: 12px;
     display: inline;
     text-decoration: none;    
-    vertical-align: middle;
+    vertical-align: top;
 }
 /* Header section */
 table.headline {   
