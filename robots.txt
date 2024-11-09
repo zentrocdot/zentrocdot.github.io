@@ -11,4 +11,4 @@ Disallow: /.gitignore
 Disallow: /README.md
 
 # Declare sitemap for google.
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://zentrocdot.github.io/sitemap.xml
